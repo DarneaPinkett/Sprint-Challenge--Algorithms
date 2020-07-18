@@ -11,6 +11,7 @@ b)This Logarithmic Time - O(log n). The size n increases which increases the num
 c)This time is Linear time - O(n) if n is bigger the then it will have more operations.
 
 ## Exercise II
-
+I would use the binary search  method. We find the middle floor and drop the egg and if the egg breaks. That floor will be the new end of the floor. Then we find the middle of the remaining floors and continue until we find the safe floor to drop the egg.
+Which this method has a time complexity of O(log n)
 
 
